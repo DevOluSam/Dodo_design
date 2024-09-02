@@ -6,7 +6,7 @@ import menu_icon from '../assets/icons8-menu.svg'
 
 function Header() {
   return (
-    <header className=' flex h-[80px] w-full gap-2 border md:border-red-900  pt-3 px-3
+    <header className=' flex h-[80px] w-full gap-2   pt-3 px-3
    
     
     '>
