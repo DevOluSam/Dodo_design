@@ -34,7 +34,7 @@ function App() {
       <Header />
      
     </div>
-    <div className="px-4 pl-6 mt-2 lg:border-t border-t-[#ddd]" >
+    <div className="px-6 pl-6 border border-red-800 mt-2 lg:border-t border-t-[#ddd]" >
     <Main />
     </div>
     
