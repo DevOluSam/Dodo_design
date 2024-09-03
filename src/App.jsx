@@ -30,11 +30,11 @@ function App() {
     </div>
   </div>
   <div className="lg:h-full md:">
-    <div className="hidden sm:block sm:border-b border-b-[#ddd] pb-5 md:border-b-0 ">
+    <div className="hidden sm:block sm:border-b border-b-[#EAECF0] pb-5 md:border-b-0 ">
       <Header />
      
     </div>
-    <div className="px-6 pl-6  mt-2 lg:border-t border-t-[#ddd]" >
+    <div className="px-6 pl-6  mt-2 lg:border-t border-t-[#EAECF0] bg-[#FCFBFE] mb-10" >
     <Main />
     </div>
     

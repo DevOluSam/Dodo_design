@@ -45,7 +45,7 @@ function Aside() {
            </li>
             </ul>
 
-            <ul className=' h-full  px-4 py-1 pl-6 flex flex-col justify-center'>
+            <ul className=' h-full  px-4 py-1 pl-6 flex flex-col justify-center mt-3'>
            <li className='flex gap-2 lg:gap-4 hover:bg-[#F0EBFC] hover:text-[#4A24A1] cursor-pointer rounded-lg p-3 '>
                <span>
                    <img src={support_icon} alt="support-icon" />
