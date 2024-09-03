@@ -1,5 +1,5 @@
 
-import Sidebar from "./Sidebar.jsx"
+import Sidebar from "./components/Sidebar.jsx"
 import Aside from "./components/Aside.jsx"
 import Header from "./components/Header.jsx"
 import Main from "./components/Main.jsx"
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
  <div
-  className="grid grid-cols-1 gap-0 transition-[grid-template-columns] sm:grid-cols-[300px_1fr] md:grid-cols-[250px_1fr] lg:gap-0 "
+  className="grid grid-cols-1 gap-0 transition-[grid-template-columns] sm:grid-cols-[300px_auto] md:grid-cols-[250px_1fr] lg:gap-0 font-['Mulish']"
 >
   <div className="h-32 lg:h-full rounded-lg ">
     <div className="sm:hidden">
@@ -29,12 +29,12 @@ function App() {
      </div>
     </div>
   </div>
-  <div className="lg:h-full">
-    <div className="hidden sm:block ">
+  <div className="lg:h-full md:">
+    <div className="hidden sm:block sm:border-b border-b-[#ddd] pb-5 md:border-b-0 ">
       <Header />
      
     </div>
-    <div className="px-4 " >
+    <div className="px-4 pl-6 mt-2 lg:border-t border-t-[#ddd]" >
     <Main />
     </div>
     

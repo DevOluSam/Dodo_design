@@ -1,8 +1,8 @@
 import React from 'react'
-import figma_1 from '../src/assets/figma-icon-1.svg'
-import figma_2 from '../src/assets/figma-icon-2.svg'
-import linkedn from '../src/assets/linkedn.svg'
-import './index.css'
+import figma_1 from '../assets/figma-icon-1.svg'
+import figma_2 from '../assets/figma-icon-2.svg'
+import linkedn from '../assets/linkedn.svg'
+import '../index.css'
 
 function Sidebar() {
   return (
