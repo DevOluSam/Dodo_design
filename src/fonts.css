@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'AeonikPro-Air';
+    src: url('./assets/AeonikPro-Air.otf');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+@font-face {
+    font-family: 'AeonikPro-Air';
+    src: url('./assets/AeonikPro-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -6,9 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: "Aeonik Pro"
+      },
       gridTemplateColumns: {
         '20': 'repeat(20, minmax(0, 1fr))',
-      }
+      },
     },
   },
   plugins: [],

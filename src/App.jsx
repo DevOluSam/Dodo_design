@@ -13,7 +13,7 @@ function App() {
   return (
     <>
  <div
-  className="grid grid-cols-1 gap-0 transition-[grid-template-columns] sm:grid-cols-[300px_auto] md:grid-cols-[250px_1fr] lg:gap-0 font-['Mulish']"
+  className="grid grid-cols-1 gap-0 transition-[grid-template-columns] sm:grid-cols-[300px_auto] md:grid-cols-[250px_1fr] lg:gap-0 font-custom"
 >
   <div className="h-32 lg:h-full rounded-lg ">
     <div className="sm:hidden">
